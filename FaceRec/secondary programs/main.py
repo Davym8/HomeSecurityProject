@@ -20,8 +20,8 @@ def livestream():
     face_classifier = cv2.CascadeClassifier("/home/pi/opencv/data/haarcascades/haarcascade_frontalface_default.xml") #must change for your filesystem
     # App Globals (do not edit) 
     app = Flask(__name__)
-    app.config['BASIC_AUTH_USERNAME'] = 'davy'
-    app.config['BASIC_AUTH_PASSWORD'] = 'sparky117'
+    app.config['BASIC_AUTH_USERNAME'] = 'd'
+    app.config['BASIC_AUTH_PASSWORD'] = 's'
     app.config['BASIC_AUTH_FORCE'] = True
     last_epoch = 0.0
     basic_auth = BasicAuth(app)
