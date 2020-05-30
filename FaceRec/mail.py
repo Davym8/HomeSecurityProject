@@ -8,14 +8,14 @@ sends an email with an image
 
 """
 # Email you want to send the update from (only works with gmail)
-fromEmail = ('david.j.adams117@gmail.com')
+fromEmail = ('@gmail.com')
 # You can generate an app password here to avoid storing your password in plain text
 # https://support.google.com/accounts/answer/185833?hl=en
 #DO NOT USE PLAIN TEXT
-fromEmailPassword = ('ifxofzjrcfvfubqb')
+fromEmailPassword = ('')
 
 # Email you want to send the update to
-toEmail = ('david.j.adams117@gmail.com')
+toEmail = ('@gmail.com')
 
 def sendEmail(image):
     msgRoot = MIMEMultipart('related')
