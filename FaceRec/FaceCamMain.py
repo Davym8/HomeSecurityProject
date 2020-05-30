@@ -49,8 +49,8 @@ def livestream():
     #this is for the flask server you can change the username and password to what u want
     # App Globals (do not edit)
     app = Flask(__name__)
-    app.config['BASIC_AUTH_USERNAME'] = 'davy'
-    app.config['BASIC_AUTH_PASSWORD'] = 'sparky117'
+    app.config['BASIC_AUTH_USERNAME'] = 'd'
+    app.config['BASIC_AUTH_PASSWORD'] = 's'
     app.config['BASIC_AUTH_FORCE'] = True
     basic_auth = BasicAuth(app)
     last_epoch = 0.0
