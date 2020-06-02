@@ -246,7 +246,7 @@ try:
         if (sensord == 1):
             facerec()
             if Positive_Ident:
-                print("cookie")
+                print("resetting")
                 Positive_Ident = False
                 continue #this will continue the loop
             if Negative_Ident:
