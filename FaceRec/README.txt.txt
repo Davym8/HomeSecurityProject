@@ -5,6 +5,8 @@ Install OpenCV
 https://pimylifeup.com/raspberry-pi-opencv/
 https://www.hackster.io/hackershack/smart-security-camera-90d7bd#toc-code-6
 https://linuxize.com/post/how-to-install-opencv-on-raspberry-pi/
+https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/
+https://www.e-consystems.com/blog/camera/how-to-access-cameras-using-opencv-with-python/
 
 follow these website tutorials to get starteed
 
